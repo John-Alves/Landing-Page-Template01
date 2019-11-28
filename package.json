@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
   "private": true,
   "dependencies": {
@@ -19,7 +20,16 @@
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
     "@angular/router": "~8.2.14",
-    "rxjs": "~6.4.0",
+    "@ng-bootstrap/ng-bootstrap": "4.1.0",
+    "rxjs": "6.2.2",
+    "rxjs-compat": "6.2.2",
+    "bootstrap": "4.1.2",
+    "core-js": "2.4.1",
+    "jquery": "3.2.1",
+    "jw-bootstrap-switch-ng2": "2.0.1",
+    "ng2-nouislider": "1.7.12",
+    "nouislider": "9.2.0",
+    "popper.js": "1.14.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
   },
